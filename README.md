@@ -41,8 +41,7 @@ Acesse em: [http://localhost:3000](http://localhost:3000)
 - ✅ Listagem de produtos via Fake Store API
 - ✅ Filtro por categoria
 - ✅ Adição e remoção de produtos no carrinho
-- ✅ Atualização de quantidade no carrinho
-- ✅ Checkout com formulário validado (nome, e-mail, endereço, etc.)
+- ✅ Checkout com formulário validado
 - ✅ Página de confirmação de pedido
 - ✅ Testes do carrinho e fluxo de checkout
 
