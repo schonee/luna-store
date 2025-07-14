@@ -22,7 +22,7 @@ Este projeto é um e-commerce simples desenvolvido com **Next.js**, **React** e 
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/luna-store.git
+git clone https://github.com/schonee/luna-store.git
 cd luna-store
 
 # Instale as dependências
