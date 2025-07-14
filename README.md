@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Desafio Técnico - Luna Checkout
 
-## Getting Started
+### Luna Store
 
-First, run the development server:
+Este projeto é um e-commerce simples desenvolvido com **Next.js**, **React** e **TypeScript**, com funcionalidades de listagem de produtos, carrinho e checkout.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- [Next.js](https://nextjs.org/) – Framework React fullstack
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) – Estilização utilitária
+- [TanStack Query (React Query)](https://tanstack.com/query) – Gerenciamento de requisições e cache
+- [React Hook Form](https://react-hook-form.com/) – Manipulação de formulários
+- [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/) – Testes unitários e de interface
+
+---
+
+## 🧰 Instalação e execução
 
 ```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/nome-do-repo.git
+cd nome-do-repo
+
+# Instale as dependências
+npm install
+
+# Rode a aplicação em modo desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse em: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✅ Funcionalidades implementadas
 
-## Learn More
+- ✅ Listagem de produtos via Fake Store API
+- ✅ Filtro por categoria
+- ✅ Adição e remoção de produtos no carrinho
+- ✅ Atualização de quantidade no carrinho
+- ✅ Checkout com formulário validado (nome, e-mail, endereço, etc.)
+- ✅ Página de confirmação de pedido
+- ✅ Testes do carrinho e fluxo de checkout
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 Como testar o carrinho e checkout
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Rodar todos os testes:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm test
+```
